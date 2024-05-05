@@ -1,0 +1,133 @@
+
+.customer-address, .paymentMethods, .prices {
+    background: #fac564;
+    padding: 15px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    // font-family: '/public/front-end/fonts/flaticon/font/Flaticon.ttf';
+}
+
+.text {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.heading .link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(13, 92, 182);
+    cursor: pointer;
+}
+
+.title {
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.name::after {
+    content: "";
+    width: 1px;
+    height: 12px;
+    background: rgb(224, 224, 224);
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.address {
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+// .prices {
+//     background: #fac564;
+//     padding: 15px;
+//     margin-bottom: 8px;
+//     border-radius: 4px;
+//     font-family: '/public/front-end/fonts/flaticon/font/Flaticon.ttf';
+// }
+
+.prices__items {
+    border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+.prices__value--final {
+    color: rgb(254, 56, 52);
+    font-size: 22px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.prices__value--noted {
+    font-weight: 300;
+    font-style: normal;
+    display: block;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+}
+
+.cart__submit {
+    /* background: rgb(255, 66, 78); */
+    color: rgb(255, 255, 255);
+    padding: 13px 10px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    display: block;
+    margin: 15px 0px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cart-total-prices {
+    font-size: 20px;
+}
+
+
+//Css payment method
+select {
+    /* Reset Select */
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    /* Personalize */
+    flex: 1;
+    padding: 0 1em;
+    color: #fff;
+    background-color: #34495e;
+    background-image: none;
+    cursor: pointer;
+}
+
+.select-method {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+}
+
+/* Arrow */
+.select-method::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.75em;
+    background-color: #34495e;
+    transition: .25s all ease;
+    pointer-events: none;
+  }
+
+/* Transition */
+.select-method:hover::after {
+    color: #f39c12; 
+}
