@@ -68,13 +68,13 @@ class RegisterController extends Controller
             'fullName' => $data['name'],
             'email' => $data['email'],
             'username' => '',
-            'dob' => '',
+            'dob' => '07/09/2001',
             'phone' => '',
-            'houseNumber' => ,
+            'houseNumber' => 2,
             'street' => '',
-            'villageId' => ,
+            'villageId' => 1,
             'roleId' => 2,
-            'avatarUrl' => '',
+            'avatarUrl' => 'avt_3.jpg',
             'password' => Hash::make($data['password']),
             'avatar' => ''
         ]);

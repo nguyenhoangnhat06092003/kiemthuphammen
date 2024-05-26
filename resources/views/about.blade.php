@@ -56,8 +56,8 @@
                             <div class="text">
                                 <h3>Tầng 51 Bitexco Financial Tower</h3>
                                 <p>Bến Nghé, Bình Thạnh, TPHCM</p>
-                            <br> <li><a href="https://www.facebook.com/kkieuuuu.313/"><span class="icon-facebook"></span></a> 
-                                &nbsp &nbsp   <a href="https://www.instagram.com/ky2w_nee/"><span class="icon-instagram"></span></a></li>
+                            <br> <li><a href="https://www.facebook.com/Shinn.2003/"  target="_blank"><span class="icon-facebook"></span></a> 
+                                &nbsp &nbsp   
 
                        
                             </div>

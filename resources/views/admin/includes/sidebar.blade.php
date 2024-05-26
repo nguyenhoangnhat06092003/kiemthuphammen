@@ -10,7 +10,7 @@
         <!-- menu profile quick info -->
         <div class="profile clearfix">
             <div class="profile_pic">
-                <img src="{{ asset('public/front-end/images/avt.jpg') }}" alt="..."
+                <img src="{{ asset('public/front-end/images/avt1.jpg') }}" alt="..."
                     class="img-circle profile_img">
             </div>
             <div class="profile_info">

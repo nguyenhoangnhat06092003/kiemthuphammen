@@ -18,7 +18,7 @@ $result1 = mysqli_query($connect, $sql1);
                 <li class="nav-item dropdown open" style="padding-left: 15px;">
                     <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown"
                         data-toggle="dropdown" aria-expanded="false">
-                        <img src="{{ asset('public/front-end/images/avt.jpg') }}" alt="">Admin
+                        <img src="{{ asset('public/front-end/images/avt1.jpg') }}" alt="">Admin
                     </a>
                     <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="{{ route('profile') }}">
